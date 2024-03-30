@@ -1,0 +1,156 @@
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container1{
+    height: 200%;
+    padding-top:100px;
+    margin: 10px;
+    width: 100%;
+    color: #0CF7EC;
+    
+}
+
+.card{
+    --font-color: #323232;
+    --bg-color: rgb(216, 210, 210);
+    width:300px;
+    height:350px;
+    border-radius: 20px;
+    background: var(--bg-color);
+   
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+    position: relative;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: -5px 9px 15px #5a5a5a,
+  5px -9px 15px #ffffff;  }
+  
+  .card .heading {
+    color: royalblue;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  .card .heading span {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  
+  .card .icons {
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    box-shadow: 25px 25px 50px rgba(9, 148, 255, 0.25),
+    -2px -2px 5px rgba(9, 148, 255, 0.25),
+    inset -2px -2px 55px rgba(9, 148, 255, 0.5);
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+  }
+  
+  .card .icons-container {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .card .icons svg {
+    fill: royalblue;
+    height: 24px;
+    width: 24px;
+  }
+  
+  .card .code {
+    width: fit-content;
+    margin: 1.5em auto;
+  }
+  
+  .card .code svg {
+    fill: royalblue;
+    width: 180px;
+    aspect-ratio: 16/9;
+  }
+
+  .profileimg{
+    width:200px;
+    height:150px;
+    border-radius: 50%;
+  }
+
+
+
+
+
+
+  /*  */
+
+.heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.products .box-container{
+    display: grid;
+   grid-template-columns: repeat(auto-fit,20rem);
+   gap:1.5rem;
+   justify-content: center;
+   
+ }
+ .products{
+ }
+ .products .box-container .box{
+    text-align: center;
+    padding:5rem;
+    border:var(--border);
+    border-radius: .5rem;
+ }
+
+ .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+  
+  @keyframes shadow {
+    0% {
+      box-shadow: 5px 5px 20px rgba(9, 148, 255, 0.15),
+    -5px -5px 10px rgba(9, 148, 255, 0.1),
+    inset -5px -5px 5px rgba(9, 148, 255, 0.5);
+    }
+  
+    50% {
+      box-shadow: 25px 25px 50px rgba(9, 148, 255, 0.25),
+    -10px -10px 30px rgba(9, 148, 255, 0.1),
+    inset -5px -5px 15px rgba(9, 148, 255, 0.5);
+    }
+  
+    100% {
+      box-shadow: 5px 5px 20px rgba(9, 148, 255, 0.15),
+    -5px -5px 10px rgba(9, 148, 255, 0.1),
+    inset -5px -5px 5px rgba(9, 148, 255, 0.5);
+    }
+  }

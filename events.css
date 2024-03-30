@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+.container2{
+    height: 80%;
+    padding:10px;
+    margin: 10px;
+    width: 100%;
+    color:white;
+}
+
+.eventcard {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:500px;
+    height:300px;
+    background-image: radial-gradient(
+      circle 897px at 9% 80.3%,
+      rgba(55, 60, 245, 1) 0%,
+      rgba(234, 161, 15, 0.9) 100.2%
+    );
+    border-radius: 10px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    gap:10px;
+    color: antiquewhite;
+  }
+
+   .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,30rem);
+    gap:70px;
+    justify-content: center;
+    padding:10px;
+   
+  }
+  .eventimg{
+    width: 200px;
+    height:200px;
+  }
+  p{
+    text-align:justify;
+    color:white;
+
+  }
+  
