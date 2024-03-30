@@ -57,9 +57,9 @@ body {font-family: "Lato", sans-serif; height:100%,}
 <p>Click on the buttons inside the tabbed menu:</p>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'addprofile')" id="defaultOpen">London</button>
-  <button class="tablinks" onclick="openCity(event, 'addevents')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'checkcontact')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'addprofile')" id="defaultOpen">addprofile</button>
+  <button class="tablinks" onclick="openCity(event, 'addevents')">addevenets</button>
+  <button class="tablinks" onclick="openCity(event, 'checkcontact')">checkcontact</button>
 </div>
 
 <div id="addprofile" class="tabcontent">
