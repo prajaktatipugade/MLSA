@@ -30,10 +30,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
+    <section >
+    <center><h1 style="font-size: 50px; color:white;">Contact US &#129309</h1></center>
     <div class="contactcontainer">
-   <div><h1 style="font-size:100px">Contact<br>US &#129309</h1></div>
+    <div><img src="https://learningchain.in/wp-content/uploads/2020/06/Get-in-touch-1024x1024.png" class="contactimg" alt=""></div>
+
+   
    <form class="form">
-    
     <div class="flex">
         <label>
             <input required="" placeholder="" type="text" class="input">
@@ -68,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </button>
 </form>
 </div>
-
+    </section>
 
             
 

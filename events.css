@@ -34,7 +34,7 @@ html {
     color: antiquewhite;
   }
 
-   .box-container{
+   .box-container1{
     display: grid;
     grid-template-columns: repeat(auto-fit,30rem);
     gap:70px;
@@ -42,6 +42,9 @@ html {
     padding:10px;
    
   }
+
+  
+
   .eventimg{
     width: 200px;
     height:200px;
@@ -51,4 +54,7 @@ html {
     color:white;
 
   }
+  
+
+
   

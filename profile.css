@@ -17,7 +17,8 @@ html {
 }
 .card {
   padding: 2em 1em;
-  width: 260px;
+  width: 300px;
+  height: 400px;
   background: #fff;
   border-radius: 12px;
   animation: shadow 1.8s infinite ease-in-out;
@@ -99,9 +100,8 @@ h1{
   }
 }
   .profileimg{
-    width: 200px;
-    height:100px;
-    border-radius: 50%;
+    width:200px;
+    height:200px;
   }
 
 
@@ -130,7 +130,7 @@ h1{
   border-radius: .5rem;
 }
 
-.box-container{
+.box-container2{
   display: flex;
   align-items: center;
   justify-content: center;

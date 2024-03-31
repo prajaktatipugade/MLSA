@@ -18,9 +18,9 @@
   <div class="container2">
 
 
-      <center><h1  style="font-size: 50px;">Our Events</h1></center>
+      <center><h1  style="font-size:50px;">Our Events</h1></center>
 
-      <div class="box-container">
+      <div class="box-container1">
       <?php
                 $select_events = mysqli_query($link, "SELECT * FROM `events`");
                 if (mysqli_num_rows($select_events) > 0) {
