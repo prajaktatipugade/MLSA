@@ -26,7 +26,7 @@ html {
   height:100%;
   background-color:#0a205a; 
    padding: 20px;
-  position: relative;
+  position: block;
 }
 .contactimg{
   width: 500px;
@@ -45,7 +45,7 @@ html {
 }
 
 .form label {
-  position: relative;
+  position: block;
 }
 
 .form label .input {
@@ -57,7 +57,7 @@ html {
 }
 
 .form label .input + span {
-  position: absolute;
+  position: block;
   left: 10px;
   top: 15px;
   color: grey;
@@ -170,7 +170,7 @@ html {
   top: -2px;
   left: 0.625rem;
   position: absolute;
-  background: white;
+  background: #0a205a;
   transition: width 0.5s ease-out, left 0.3s ease-out;
 }
 
@@ -180,7 +180,7 @@ html {
   right: 1.875rem;
   bottom: -2px;
   position: absolute;
-  background: white;
+  background: #0a205a;
   transition: width 0.5s ease-out, right 0.3s ease-out;
 }
 
@@ -190,7 +190,7 @@ html {
   right: 0.625rem;
   bottom: -2px;
   position: absolute;
-  background: white;
+  background: #0a205a;
   transition: width 0.5s ease-out, right 0.3s ease-out;
 }
 
@@ -205,7 +205,7 @@ html {
 }
 
 .fancy:hover .text {
-  color: white;
+  color: black;
   padding-left: 1.5em;
 }
 
