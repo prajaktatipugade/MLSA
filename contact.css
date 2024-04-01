@@ -9,7 +9,7 @@ html {
 }
 .contactcontainer{
     height:auto;   
-    width:1000px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content:start;
@@ -218,4 +218,13 @@ html {
  .fancy:hover .bottom-key-2 {
   right: 0;
   width: 0;
+}
+
+
+
+@media (max-width: 600px) {
+
+  .contactimg{
+    display: none;
+  }
 }
