@@ -22,14 +22,9 @@ body {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   align-items: center;
    padding: 10px 40px;
    border-radius: 10px;
    margin: 10px 0px;
-   /* border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px; */
-   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-   /* background-color: #EDEDED; */
    background-color: rgba(255, 255, 255, 0.3);
    backdrop-filter: blur(10px);
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -109,6 +104,8 @@ body {
 .home-page-center {
    padding: 200px;
    display: flex;
+   justify-content: center;
+   width: 100%;
 }
 
 .home-page-left {
@@ -308,14 +305,20 @@ body {
    }
 
    .home-page-left h2 {
-      font-size: 40px;
+      font-size: 30px;
    }
 
    .home-page-center {
       display: inline;
       padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
    }
 
+   .home-page-right{
+      width: 200px;
+   }
    .home-page-right img {
       width: 200px;
       height: auto;
@@ -332,7 +335,7 @@ body {
 
    /* about page responsive */
    .about-page-center {
-      width: 300px;
+      width: 270px;
       padding: 5px;
    }
 

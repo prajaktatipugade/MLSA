@@ -101,13 +101,10 @@
     <center>
       <h1 style="font-size: 50px ;  color:white;">About Us</h1>
       <img src="Image\members.jpg" alt="" class="allmemberimg">
-      <p class="Aboutmlsa">
-      <h3> We are a vibrant community of passionate students from around the world who share a common enthusiasm for
+      <p class="Aboutmlsa"> We are a vibrant community of passionate students from around the world who share a common enthusiasm for
         technology. As Microsoft Learn Student Ambassadors, we are dedicated to empowering ourselves and our peers
         through education, innovation, and collaboration. Our mission is simple: to inspire and empower students to
-        explore, learn, and grow with Microsoft technologies.we're here to support you every step of the way.
-        <h3>
-          </p>
+        explore, learn, and grow with Microsoft technologies.we're here to support you every step of the way.</p>
     </center>
   </div>
 

@@ -1,38 +1,43 @@
 * {
-    box-sizing: border-box !important;
-    transition: ease all 0.5s;
-   
+  box-sizing: border-box !important;
+  transition: ease all 0.5s;
+
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-.contactcontainer{
-    height:auto;   
-    width:60%;
-    display: flex;
-    align-items: center;
-    justify-content:start;
-    border-radius: 10px;
-    background-color:#0a205a;
-    margin: 20px auto;
 
-   }
+.contactcontainer {
+  height: auto;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 10px;
+  background-color: #0a205a;
+  margin: 20px auto;
+  padding: 10px;
+
+}
+
 .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 400px;
-  height:100%;
-  background-color:#0a205a; 
-   padding: 20px;
+  height: 100%;
+  background-color: #0a205a;
+  padding: 20px;
   position: block;
 }
-.contactimg{
+
+.contactimg {
   width: 500px;
   height: 110%;
   border-radius: 10px;
 }
+
 .message {
   color: rgba(88, 87, 87, 0.822);
   font-size: 14px;
@@ -56,7 +61,7 @@ html {
   border-radius: 5px;
 }
 
-.form label .input + span {
+.form label .input+span {
   position: block;
   left: 10px;
   top: 15px;
@@ -66,18 +71,19 @@ html {
   transition: 0.3s ease;
 }
 
-.form label .input:placeholder-shown + span {
+.form label .input:placeholder-shown+span {
   top: 15px;
   font-size: 0.9em;
 }
 
-.form label .input:focus + span,.form label .input:valid + span {
+.form label .input:focus+span,
+.form label .input:valid+span {
   top: 30px;
   font-size: 0.7em;
   font-weight: 600;
 }
 
-.form label .input:valid + span {
+.form label .input:valid+span {
   color: green;
 }
 
@@ -89,7 +95,7 @@ html {
   border-radius: 5px;
 }
 
-.form label .input01 + span {
+.form label .input01+span {
   position: absolute;
   left: 10px;
   top: 50px;
@@ -99,18 +105,19 @@ html {
   transition: 0.3s ease;
 }
 
-.form label .input01:placeholder-shown + span {
+.form label .input01:placeholder-shown+span {
   top: 40px;
   font-size: 0.9em;
 }
 
-.form label .input01:focus + span,.form label .input01:valid + span {
+.form label .input01:focus+span,
+.form label .input01:valid+span {
   top: 50px;
   font-size: 0.7em;
   font-weight: 600;
 }
 
-.form label .input01:valid + span {
+.form label .input01:valid+span {
   color: green;
 }
 
@@ -215,7 +222,7 @@ html {
 }
 
 .fancy:hover .bottom-key-1,
- .fancy:hover .bottom-key-2 {
+.fancy:hover .bottom-key-2 {
   right: 0;
   width: 0;
 }
@@ -224,7 +231,18 @@ html {
 
 @media (max-width: 600px) {
 
-  .contactimg{
+  .contactimg {
     display: none;
   }
+  .contactcontainer{
+    width: 80%;
+  }
 }
+
+/* @media (max-width: 600px) {
+
+  .form{
+    width: 100%;
+    max-width: 500p;
+  }
+} */

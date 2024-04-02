@@ -10,35 +10,39 @@ html {
 .container2{
     height: 80%;
     padding:10px;
-    margin: 10px;
     width: 100%;
     color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .eventcard {
+    margin:15px 5px;
     display: flex;
     align-items: center;
     justify-content:center;
     width:500px;
-    height:300px;
+    height:auto;
     background-image: radial-gradient(
       circle 897px at 9% 80.3%,
       rgba(55, 60, 245, 1) 0%,
       rgba(234, 161, 15, 0.9) 100.2%
     );
     border-radius: 10px;
-    padding: 30px;
+    padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    position: block;
-    gap:10px;
     color: antiquewhite;
+  }
+  .event-info{
+    padding: 5px;
   }
 
    .box-container1{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,30rem);
-    gap:70px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding:10px;
    
   }
@@ -48,10 +52,25 @@ html {
   .eventimg{
     width: 200px;
     height:200px;
+    border-radius: 5px;
   }
   p{
     text-align:justify;
     color:white;
+  }
+
+
+  @media (max-width: 600px) {
+    .eventcard{
+      flex-direction: column;
+      width: 250px;
+      padding: 10px;
+    }
+    .eventimg{
+      width: 190px;
+      height: 160px;
+    }
+    
   }
   
 

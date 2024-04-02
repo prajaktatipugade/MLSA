@@ -32,7 +32,7 @@
 
             <img class="eventimg" src="Image/<?php echo $fetch_event['image']; ?>" alt="">
 
-            <div>
+            <div class="event-info">
               <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-calendar-event" viewBox="0 0 16 16">
                   <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z" />
