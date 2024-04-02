@@ -114,7 +114,7 @@
 
 
   <div class="profile-container">
-    <?php include 'profile.php'; ?>
+    <?php include 'card.php'; ?>
   </div>
   <div class="event-container">
     <?php include 'events.php'; ?>
