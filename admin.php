@@ -3,9 +3,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {box-sizing: border-box }
-body {font-family: "Lato", sans-serif; height:100%,}
-
+* {box-sizing: border-box ;}
+body {font-family: "Lato", sans-serif; height:100%;  background-color: #3a4c7a    ;
+}
 /* Style the tab */
 .tab {
   float: left;
@@ -14,7 +14,7 @@ body {font-family: "Lato", sans-serif; height:100%,}
   width: 20%;
   height: 100%;
   margin-left: 20px;
-}
+ }
 
 /* Style the buttons inside the tab */
 .tab button {
@@ -50,16 +50,13 @@ body {font-family: "Lato", sans-serif; height:100%,}
   height: 100%;
 }
 </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h2>Vertical Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'addprofile')" id="defaultOpen">addprofile</button>
   <button class="tablinks" onclick="openCity(event, 'addevents')">addevenets</button>
-  <button class="tablinks" onclick="openCity(event, 'checkcontact')">checkcontact</button>
 </div>
 
 <div id="addprofile" class="tabcontent">

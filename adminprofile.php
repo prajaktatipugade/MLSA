@@ -53,10 +53,10 @@ if (isset($_POST['update_profile'])) {
     if ($update_query) {
         move_uploaded_file($update_p_image_tmp_name, $update_p_image_folder);
         $message[] = 'profile updated successfully';
-        header('location:adminprofile.php');
+        header('location:admin.php');
     } else {
         $message[] = 'profile could not be updated';
-        header('location:adminprofile.php');
+        header('location:admin.php');
     }
 }
 

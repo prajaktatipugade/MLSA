@@ -41,7 +41,7 @@
                 </svg></i>
                 <?php echo $fetch_event['date']; ?>
               </h4>
-              <h3>
+              <h3 style=" color: rgb(12, 58, 209);">
                 <?php echo $fetch_event['name']; ?>
               </h3>
               <p>

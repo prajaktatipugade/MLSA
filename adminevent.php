@@ -27,10 +27,10 @@ if (isset ($_GET['delete'])) {
     $delete_id = $_GET['delete'];
     $delete_query = mysqli_query($link, "DELETE FROM `events` WHERE id = $delete_id") or die ('query failed');
     if ($delete_query) {
-        header('location:adminevent.php');
+        header('location:admin.php');
         $message[] = 'profile has been deleted';
     } else {
-        header('location:adminevent.php');
+        header('location:admin.php');
         $message[] = 'profile could not be deleted';
     }
     ;
@@ -51,10 +51,10 @@ if (isset ($_POST['update_profile'])) {
     if ($update_query) {
         move_uploaded_file($update_p_image_tmp_name, $update_p_image_folder);
         $message[] = 'profile updated successfully';
-        header('location:adminevent.php');
+        header('location:admin.php');
     } else {
         $message[] = 'profile could not be updated';
-        header('location:adminevent.php');
+        header('location:admin.php');
     }
 }
 

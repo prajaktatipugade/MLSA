@@ -23,7 +23,8 @@ html {
     display: flex;
     align-items: center;
     justify-content:center;
-    width:500px;
+    gap:20px;
+    width:900px;
     height:auto;
     background-image: radial-gradient(
       circle 897px at 9% 80.3%,
@@ -36,7 +37,7 @@ html {
     color: antiquewhite;
   }
   .event-info{
-    padding: 5px;
+    padding:10px;
   }
 
    .box-container1{
@@ -47,12 +48,12 @@ html {
    
   }
 
-  
 
   .eventimg{
-    width: 200px;
-    height:200px;
+    width: 300px;
+    height:300px;
     border-radius: 5px;
+   
   }
   p{
     text-align:justify;
